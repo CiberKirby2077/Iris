@@ -124,14 +124,14 @@ const double = Math.floor(Math.random() * 2) + 1
         const mess = {
             wait: '✅ ESPERA, ESTE PROCESO PUEDE TARDAR...',
             error: {
-                St: 'Lo usaste mal jaja!\nPara usar esto, envíe o etiquete una foto con este mensaje, si es un gif, use el comando */gif*.',
-                Ki: 'Para eliminar administradores, primero debe eliminar su ADM.',
+                St: 'Lo usaste mal pendejo!\nPara usar esto, envíe o etiquete una foto con este mensaje, si es un gif, use el comando */gif*.',
+                Ki: 'Para eliminar administradores, primero debe eliminar su ADM, eres tonto o masticas agua?.',
                 Ad: '¡Errores! No pude agregarlo, podría deberse a la limitación de agregar o mis errores.',
                 Go: 'Por qué, solo el propietario de un grupo puede usar este tipo de comando.',
 				Kl: '¡UPS! Ese es solo para mi creador, no puedes acceder.',
-				Ga: 'Solo los administradores pueden usarlo, así que chau jaja!',
+				Ga: 'Solo los administradores pueden usarlo, así que chupame la tula jaja!',
 				Gp: 'Lo siento, pero este es un comando para grupos..',
-				Ac: 'Solo los grupos que permiten contenido +18 pueden usar comandos como este, si usted es el propietario y desea esto, use /nsfw enable o use en PV.',
+				Ac: 'Solo los grupos que permiten contenido +18 pueden usar comandos como este pajero morbido, si usted es el propietario y desea esto, use /nsfw enable o use en PV.',
 				Ba: 'Estimado administrador, si desea que use estos comandos, debe dejarme ser un admin!',
                 Iv: '¿Este enlace es correcto? Me parece mal...'
             }
@@ -214,7 +214,7 @@ const double = Math.floor(Math.random() * 2) + 1
                     rank.addLevel(usuario, 1, nivel)
                     const userLevel = rank.getLevel(usuario, nivel)
                     const takeXp = 5 * Math.pow(userLevel, 2) + 50 * userLevel + 100
-                    await kill.reply(from, `*「 NUEVO NIVEL 」*\n\n➫ *Nombre*: ${pushname}\n➫ *XP*: ${rank.getXp(usuario, nivel)} / ${takeXp}\n➫ *Level*: ${levelAtual} -> ${rank.getLevel(usuario, nivel)} 🆙 \n➫ *Patente*: *${patente}*\n\n*Felicitaciones, se más activo para subir tu rango y XP!* 🎉`, id)
+                    await kill.reply(from, `*「 NUEVO NIVEL 」*\n\n➫ *Nombre*: ${pushname}\n➫ *XP*: ${rank.getXp(usuario, nivel)} / ${takeXp}\n➫ *Level*: ${levelAtual} -> ${rank.getLevel(usuario, nivel)} 🆙 \n➫ *Patente*: *${patente}*\n\n*Felicitaciones, pierde aun mas tu vida social para subir tu rango y XP!* 🎉`, id)
                 }
             } catch (err) {
                 console.error(err)
@@ -3745,3 +3745,18 @@ case 'google':
 		kill.reply(from, `⚠️ _Vaya, por alguna razón recibí errores con este comando, por favor evite usarlo nuevamente y si es posible contacte a los responsables con el comando ${prefix}help._`, id)
     }
 }
+
+case 'Alan':
+    await kill.reply(from, 'Comeme los huevos Alan', id)
+    break
+
+case 'Kirby':
+    await kill.reply(from, 'Kirby es el Dios mas pitudo del oeste, con su mirada, embaraza chicas y al feto de a dentro. Simplemente, el mejor', id)
+    break
+
+case 'Yare':
+    await kill.reply(from, 'Hazme un hijo pls', id)
+    break
+case 'Albion':
+    await kill.reply(from, 'albion online es un mmorpg no lineal en el que escribes tu propia historia sin limitarte a seguir un camino prefijado, explora un amplio mundo abierto con cinco biomas unicos, todo cuanto hagas tendra su repercusíon en el mundo, con su economia orientada al jugador de albion los jugadores crean practicamente todo el equipo a partir de los recursos que consiguen, el equipo que llevas define quien eres, cambia de arma y armadura para pasar de caballero a mago o juego como una mezcla de ambas clases, aventurate en el mundo abierto y haz frente a los habitantes y las criaturas de albion, inicia expediciones o adentrate en mazmorras en las que encontraras enemigos aun mas dificiles, enfrentate a otros jugadores en encuentros en el mundo abierto, lucha por los territorios o por ciudades enteras en batallas tacticas, relajate en tu isla privada donde podras construir un hogar, cultivar cosechas, criar animales, unete a un gremio, todo es mejor cuando se trabaja en grupo [musica] adentrate ya en el mundo de albion y escribe tu propia historia.', id)
+    break

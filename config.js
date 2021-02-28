@@ -3750,6 +3750,8 @@ case 'Alan':
     await kill.reply(from, 'Comeme los huevos Alan', id)
     break
 
+{
+	
 case 'Kirby':
     await kill.reply(from, 'Kirby es el Dios mas pitudo del oeste, con su mirada, embaraza chicas y al feto de a dentro. Simplemente, el mejor', id)
     break
